@@ -9,4 +9,12 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "RRethy/nvim-base16",
+    lazy = false,
+  },
+  {
+    "vim-scripts/Align",
+    lazy = false,
+  },
 }
