@@ -81,5 +81,9 @@ return {
     --     ["~/%.config/foo/.*"] = "fooscript",
     --   },
     -- }
+    --  autocmd BufEnter * silent! lcd %:p:h
+    vim.api.nvim_create_autocmd("BufEnter", {
+      command = "silent lcd %:p:h",
+    })
   end,
 }
