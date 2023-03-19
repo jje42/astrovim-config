@@ -80,6 +80,7 @@ return {
     vim.api.nvim_create_autocmd("BufEnter", {
       pattern = "*.go",
       command = "setlocal sw=8 ts=8 sts=8",
+    })
     vim.api.nvim_create_autocmd("BufEnter", {
       command = "silent lcd %:p:h",
     })
