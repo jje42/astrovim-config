@@ -17,6 +17,9 @@ return {
       null_ls.builtins.formatting.scalafmt,
       null_ls.builtins.formatting.shfmt,
       null_ls.builtins.formatting.yamlfmt,
+      null_ls.builtins.formatting.black,  -- autopep8, autoflake, black, blue (isort for sorting imports) pyflyby? ruff
+      null_ls.builtins.formatting.pyflyby,
+      null_ls.builtins.formatting.jq,
     }
     return config -- return final config table
   end,
